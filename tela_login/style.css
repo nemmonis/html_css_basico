@@ -1,0 +1,67 @@
+:root {
+    --selecao: #e2e2e2;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(176, 148, 241);
+}
+
+#login-box {
+    background-color: rgb(227, 206, 255);
+    border: 6px rgb(250, 159, 223) solid;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459) ;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-label {
+    text-align: center;
+    font-family: "Jacquard 12";
+    font-weight: 100;
+    font-size: 55px;
+    margin: 0;
+}
+
+#botao-entrar {
+    display: block;
+    margin: 20px auto 0px auto;
+    border: 2px rgb(109, 195, 230) solid;
+    border-radius: 15px;
+    padding: 3px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Jersey 25";
+}
+
+#botao-entrar:hover {
+    background-color: rgb(109, 195, 230);
+}
+
+.campos-do-jordao {
+    background-color: white;
+    display: block;
+    margin: 8px auto;
+    border: 2px rgb(250, 159, 223) solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    font-family: "Jersey 25";
+    font-size: 16px;
+}
+
+.campos-do-jordao:hover{
+    background-color: var(--selecao);
+}
